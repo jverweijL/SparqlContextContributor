@@ -1,0 +1,20 @@
+Bundle-Name: SparqlContextContributor
+Bundle-SymbolicName: sparqlcontextcontributor
+Bundle-Version: 1.0.0
+
+Import-Package: \
+    !com.github.jsonldjava.shaded.com.google.common.util.concurrent*,\
+    !com.github.luben*,\
+    !com.google.errorprone*,\
+    !com.github.andrewoma.dexx.*,\
+    !org.apache.logging.*,\
+    !net.sf.ehcache,\
+    !net.spy.memcached,\
+    !org.apache.avalon.framework.logger,\
+    !org.apache.jena.ext.com.google.*,\
+    !org.apache.log,\
+    !org.brotli.dec,\
+    !org.checkerframework.checker.nullness.qual,\
+    !org.slf4j.impl,\
+    !org.tukaani.xz,\
+	*
